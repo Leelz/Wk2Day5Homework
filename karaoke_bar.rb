@@ -11,6 +11,8 @@ class Karaoke_Bar
   def can_afford_karaoke(person)
     if person.money > @entry_fee
       puts "Welcome!"
+    else
+      puts "Sorry, you don't have enough money"
     end
   end
 
