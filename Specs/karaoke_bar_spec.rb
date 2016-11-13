@@ -1,9 +1,9 @@
 require("minitest/autorun")
 require("minitest/rg")
-require_relative("room")
-require_relative("music")
-require_relative("person")
-require_relative("karaoke_bar")
+require_relative("../room")
+require_relative("../music")
+require_relative("../person")
+require_relative("../karaoke_bar")
 
 class TestKaraoke_Bar < Minitest::Test
 

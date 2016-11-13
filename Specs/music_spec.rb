@@ -1,6 +1,6 @@
 require('minitest/autorun')
 require('minitest/rg')
-require_relative('music')
+require_relative('../music')
 
 class TestMusic < Minitest::Test
 

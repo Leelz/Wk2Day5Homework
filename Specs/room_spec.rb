@@ -1,8 +1,8 @@
 require('minitest/autorun')
 require('minitest/rg')
-require_relative('Room')
-require_relative('Music')
-require_relative('Person')
+require_relative('../Room')
+require_relative('../Music')
+require_relative('../Person')
 
 class TestRoom < Minitest::Test
 
